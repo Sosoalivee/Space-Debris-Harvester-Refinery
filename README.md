@@ -1,165 +1,165 @@
-# Space Debris Harvester-Refinery Simulator
+# 🌌 Space Debris Harvester‑Refinery Simulator
+A fully interactive, browser‑based simulation demonstrating how **orbital debris can be collected, processed, and reused** to support a sustainable circular space economy.
+
+🔗 **Live Simulation:** https://orbit-resource-relay.lovable.app/
+
+---
 
 ## 🚀 Overview
-Interactive simulation demonstrating a circular space economy approach to orbital debris management. Instead of treating debris as waste, this system models collection, processing, and conversion into valuable materials.
+The **Space Debris Harvester‑Refinery Simulator** models a futuristic approach to orbital sustainability. Instead of treating debris as waste, it demonstrates how debris can be **harvested as a resource**, refined into valuable materials, and used to offset mission costs.
+
+This simulator visualizes **collection missions**, **economic outcomes**, and **material recovery** in real‑time.
+
+---
 
 ## 🎯 Key Features
-- **Smart Prioritization**: Multi-criteria algorithm ranking debris by threat, value, and accessibility
-- **Real-Time Simulation**: Watch missions unfold day-by-day or year-by-year
-- **Economic Analysis**: Live profit/loss tracking and material value calculations
-- **Flexible Time Scales**: Model short missions (days/weeks) or long-term operations (months/years)
-- **Comprehensive Visualization**: 6+ interactive charts showing orbital distribution, collection progress, and material breakdown
+- **Smart Prioritization Algorithm**
+  - Ranks debris based on threat, value, and accessibility.
+- **Real‑Time or Accelerated Simulation**
+  - Watch missions unfold day‑by‑day, month‑by‑month, or year‑by‑year.
+- **Economic Modeling**
+  - Tracks costs, recovered material value, and profit/loss.
+- **Mission Flexibility**
+  - User‑adjustable mission duration, targets, and recovery efficiency.
+- **Comprehensive Visualization Dashboard**
+  - 6+ charts showing orbit distribution, material breakdown, and mission progress.
 
-## 🎮 Live Demo
-**[View Live Simulation](https://github.com/Sosoalivee/Space-Debris-Harvester-Refinery/)**
+---
 
-## 📊 What It Demonstrates
-Based on the research paper approach:
-1. **Debris Data Management**: Catalog generation with realistic orbital parameters
-2. **Target Prioritization**: Scoring algorithm balancing threat reduction and economic value
-3. **Smart Collection Sequences**: Optimized mission planning
-4. **Material Recovery**: Conversion modeling with adjustable efficiency rates
-5. **Economic Viability**: Cost-benefit analysis proving circular economy potential
+## 🖥️ Live Demo
+👉 **Open Simulation:** https://orbit-resource-relay.lovable.app/
+
+---
+
+## 📊 Simulation Capabilities
+This simulator mirrors the methodology described in the associated research workflow.
+
+### **1. Debris Data Management**
+- Dynamic debris catalog generation with realistic orbital parameters.
+
+### **2. Target Prioritization**
+- Multi‑criteria scoring balancing:
+  - Collision threat
+  - Material value
+  - Orbit accessibility
+
+### **3. Mission Planning**
+- Optimized collection routes based on selected parameters.
+
+### **4. Material Recovery**
+- Configurable conversion efficiency (50–95%).
+- Categorizes materials into common refinery outputs.
+
+### **5. Economic Viability**
+- Tracks:
+  - Operational cost
+  - Material value
+  - Net profit
+  - Risk reduction
+
+---
 
 ## 🛠️ Technology Stack
-- React 18
-- Recharts (data visualization)
-- Tailwind CSS (styling)
-- Lucide React (icons)
+- **React 18**
+- **Recharts** (visualizations)
+- **Tailwind CSS** (UI styling)
+- **Lucide React** (icons)
 
-## 📈 How to Use
-1. **Adjust Mission Parameters**: Set duration, debris targets, collection efficiency, and costs
-2. **Choose Time Scale**: Select days, months, or years for different analysis types
-3. **Launch Mission**: Watch automated collection or step through manually
-4. **Analyze Results**: Review economic outcomes, material recovery, and risk reduction
+---
 
-## 🎓 Academic Context
-This simulation implements the workflow described in the accompanying research paper:
-- Demonstrates feasibility of debris-as-resource concept
-- Models economic break-even scenarios
-- Provides visual evidence for sustainability advantages
-- Supports mission planning and investment analysis
+## 📈 How to Use the Simulation
+### **1. Adjust Mission Parameters**
+- Duration (days/months/years)
+- Number of debris targets (5–2000)
+- Recovery efficiency
+- Mission cost
 
-## 🚀 Quick Start
+### **2. Choose Time Scale**
+- Days → short missions
+- Months → medium‑term
+- Years → long‑term operational modeling
 
-### Run Locally
+### **3. Launch Mission**
+- Auto‑run or step‑through mode.
+
+### **4. Analyze Results**
+- Material recovered
+- Economic outcome (profit/loss)
+- Collision risk reduced
+
+---
+
+## 📊 Visualization Components
+- **Collection Timeline**
+- **Orbital Distribution Scatter Plot**
+- **Material Recovery Pie Chart**
+- **Economic Breakdown Bar Chart**
+- **Priority Scoring Radar Chart**
+- **Daily Mission Log**
+
+---
+
+## 🔬 Research Applications
+- Mission planning & optimization
+- Cost‑benefit analysis
+- Sustainability & circular‑economy modeling
+- Policy & risk assessment
+- Education & teaching tools
+
+---
+
+## 🚀 Quick Start (Local Setup)
 ```bash
 # Clone the repository
-https://github.com/Sosoalivee/Space-Debris-Harvester-Refinery
+git clone https://github.com/Sosoalivee/Space-Debris-Harvester-Refinery
 
-# Navigate to directory
+# Navigate to project folder
 cd space-debris-harvester-refinery
 
 # Open in browser
 open index.html
 ```
 
-### Deploy to GitHub Pages
-```bash
-# Enable GitHub Pages in repository settings
-# Select 'main' branch and '/ (root)' folder
-# Access at: https://github.com/Sosoalivee/Space-Debris-Harvester-Refinery/
-```
-
-## 📖 Documentation
-
-### Mission Parameters
-- **Time Unit**: Choose between days, months, or years
-- **Duration**: Mission length (10-90 days, 1-36 months, 1-30 years)
-- **Debris Targets**: Number of objects to collect (5-2000)
-- **Recovery Efficiency**: Material conversion rate (50-95%)
-- **Mission Cost**: Total operational expense ($1M-$100M)
-- **Simulation Speed**: Control playback rate
-
-### Key Metrics
-- **Collected**: Number of debris objects retrieved
-- **Mass**: Total recovered material in metric tons
-- **Value**: Economic worth of recovered materials
-- **Cost**: Operational expenses
-- **Profit**: Net result (Value - Cost)
-- **Risk Reduced**: Percentage decrease in collision threat
-
-### Visualization Components
-1. **Collection Timeline**: Progress tracking vs. targets
-2. **Orbital Distribution**: Scatter plot showing debris altitude vs. mass
-3. **Material Recovery**: Pie chart of material composition
-4. **Economic Breakdown**: Bar chart of value by material type
-5. **Priority Analysis**: Radar chart of top target scoring
-6. **Daily Mission Log**: Detailed collection records
-
-## 🔬 Research Applications
-- **Mission Planning**: Test scenarios before committing resources
-- **Economic Forecasting**: Model long-term profitability
-- **Risk Assessment**: Quantify safety benefits
-- **Policy Support**: Demonstrate circular economy advantages
-- **Education**: Teach space sustainability concepts
-
-## 📝 Citation
-If you use this simulator in research or presentations:
-```
-Space Debris Harvester-Refinery Simulator
-https://github.com/Sosoalivee/Space-Debris-Harvester-Refinery
-```
-
-## 🤝 Contributing
-Contributions welcome! Areas for enhancement:
-- Integration with real Space-Track.org data
-- Advanced orbital mechanics (Poliastro integration)
-- Multi-spacecraft mission modeling
-- Machine learning for optimization
-- Export/report generation
-
-## 📄 License
-MIT License - feel free to use for research and education
-
-## 📧 Contact
-[Bhuvana K L] - [bhuvanakl456@gmail.com]
-
-Project Link: https://github.com/Sosoalivee/Space-Debris-Harvester-Refinery
+Deploy to GitHub Pages:
+1. Go to **Repository Settings → Pages**
+2. Select **main branch** and **root**
+3. Access deployed site at GitHub Pages URL
 
 ---
 
-**Note**: This is a simulation for demonstration and research purposes. Actual space debris removal missions require extensive engineering, regulatory approvals, and safety considerations.
-```
+## 📝 File Structure Summary
+### `.gitignore`
+- Logs, OS files, IDE folders, temporary files
 
-**File 4: `.gitignore`**
-```
-# Logs
-*.log
-
-# OS files
-.DS_Store
-Thumbs.db
-
-# Editor directories
-.vscode/
-.idea/
-
-# Temporary files
-*.tmp
-*.swp
-```
-
-**File 5: `LICENSE`**
-```
+### `LICENSE`
 MIT License
 
-Copyright (c) 2024 [Bhuvana K L]
+---
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+## 📄 Citation
+If used in research or academic work:
+```
+Space Debris Harvester‑Refinery Simulator
+https://github.com/Sosoalivee/Space-Debris-Harvester-Refinery
+```
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+---
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+## 🤝 Contributing
+Helpful areas to contribute:
+- Real orbital data integration (Space‑Track)
+- Advanced orbital mechanics
+- Multi‑spacecraft modeling
+- ML‑based optimization
+- PDF/export report generation
+
+---
+
+## 📧 Contact
+**Author:** Bhuvana K L  
+📩 **Email:** bhuvanakl456@gmail.com  
+🔗 **Project:** https://github.com/Sosoalivee/Space-Debris-Harvester-Refinery
+
+---
+
+> ⚠️ **Disclaimer:** This simulator is for educational and research purposes. Real debris removal requires rigorous engineering, safety systems, and regulatory approvals.
