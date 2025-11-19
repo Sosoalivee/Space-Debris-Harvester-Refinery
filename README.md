@@ -45,7 +45,7 @@ This simulation implements the workflow described in the accompanying research p
 ### Run Locally
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/space-debris-harvester-refinery.git
+https://github.com/Sosoalivee/Space-Debris-Harvester-Refinery
 
 # Navigate to directory
 cd space-debris-harvester-refinery
@@ -58,7 +58,7 @@ open index.html
 ```bash
 # Enable GitHub Pages in repository settings
 # Select 'main' branch and '/ (root)' folder
-# Access at: https://yourusername.github.io/space-debris-harvester-refinery/
+# Access at: https://github.com/Sosoalivee/Space-Debris-Harvester-Refinery/
 ```
 
 ## 📖 Documentation
