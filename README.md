@@ -98,7 +98,7 @@ open index.html
 If you use this simulator in research or presentations:
 ```
 Space Debris Harvester-Refinery Simulator
-https://github.com/yourusername/space-debris-harvester-refinery
+https://github.com/Sosoalivee/Space-Debris-Harvester-Refinery
 ```
 
 ## 🤝 Contributing
@@ -113,9 +113,9 @@ Contributions welcome! Areas for enhancement:
 MIT License - feel free to use for research and education
 
 ## 📧 Contact
-[Your Name] - [your.email@example.com]
+[Bhuvana K L] - [bhuvanakl456@gmail.com]
 
-Project Link: https://github.com/yourusername/space-debris-harvester-refinery
+Project Link: https://github.com/Sosoalivee/Space-Debris-Harvester-Refinery
 
 ---
 
@@ -144,7 +144,7 @@ Thumbs.db
 ```
 MIT License
 
-Copyright (c) 2024 [Your Name]
+Copyright (c) 2024 [Bhuvana K L]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
